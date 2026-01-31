@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "required": ["campaign_structure", "ad_set_structure", "creative_requirements", "tracking_requirements"],
+  "properties": {
+    "campaign_structure": { "type": "object" },
+    "ad_set_structure": { "type": "object" },
+    "creative_requirements": { "type": "object" },
+    "tracking_requirements": { "type": "object" }
+  }
+}
